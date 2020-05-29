@@ -1,0 +1,91 @@
+;;
+;; Domain:     codeforcroatia.org.
+;; Exported:   2020-05-29 21:00:20
+;;
+;; This file is intended for use for informational and archival
+;; purposes ONLY and MUST be edited before use on a production
+;; DNS server.  In particular, you must:
+;;   -- update the SOA record with the correct authoritative name server
+;;   -- update the SOA record with the contact e-mail address information
+;;   -- update the NS record(s) with the authoritative name servers for this domain.
+;;
+;; For further information, please consult the BIND documentation
+;; located on the following website:
+;;
+;; http://www.isc.org/
+;;
+;; And RFC 1035:
+;;
+;; http://www.ietf.org/rfc/rfc1035.txt
+;;
+;; Please note that we do NOT offer technical support for any use
+;; of this zone data, the BIND name server, or any other third-party
+;; DNS software.
+;;
+;; Use at your own risk.
+;; SOA Record
+codeforcroatia.org.	3600	IN	SOA	codeforcroatia.org. root.codeforcroatia.org. 2034245262 7200 3600 86400 3600
+
+;; A Records
+aktivnosti-za-mlade.codeforcroatia.org.	1	IN	A	91.234.46.86
+arhiva-reklamacije-net.codeforcroatia.org.	1	IN	A	91.234.46.86
+auth.codeforcroatia.org.	1	IN	A	178.62.237.141
+bus.codeforcroatia.org.	1	IN	A	23.97.190.177
+codeforcroatia.org.	1	IN	A	162.243.217.26
+diskurs.codeforcroatia.org.	1	IN	A	23.97.247.170
+fps.codeforcroatia.org.	1	IN	A	212.8.240.55
+ftp.codeforcroatia.org.	1	IN	A	91.234.46.86
+localhost.codeforcroatia.org.	1	IN	A	127.0.0.1
+mail.codeforcroatia.org.	1	IN	A	91.234.46.86
+null.codeforcroatia.org.	1	IN	A	91.234.46.86
+old.timesheet.codeforcroatia.org.	1	IN	A	91.234.46.86
+otvorenetajne.codeforcroatia.org.	1	IN	A	91.234.46.86
+q.codeforcroatia.org.	1	IN	A	91.234.46.86
+timesheet.codeforcroatia.org.	1	IN	A	91.234.46.86
+webdisk.codeforcroatia.org.	1	IN	A	91.234.46.86
+zagreb.api.codeforcroatia.org.	1	IN	A	52.166.118.23
+
+;; CNAME Records
+0.codeforcroatia.org.	1	IN	CNAME	codeforcroatia.github.io.
+academy.codeforcroatia.org.	1	IN	CNAME	codeforcroatia.github.io.
+a.codeforcroatia.org.	1	IN	CNAME	codeforcroatia.github.io.
+api.codeforcroatia.org.	1	IN	CNAME	codeforcroatia.opendatasoft.com.
+boilerplate.codeforcroatia.org.	1	IN	CNAME	codeforcroatia.github.io.
+codeacross.codeforcroatia.org.	1	IN	CNAME	odd.codeforcroatia.org.
+cpanel.codeforcroatia.org.	1	IN	CNAME	cpanel.schlos.net.
+crypt.codeforcroatia.org.	1	IN	CNAME	codeforcroatia.github.io.
+data.codeforcroatia.org.	1	IN	CNAME	codeforcroatia.github.io.
+dev.codeforcroatia.org.	1	IN	CNAME	codeforcroatia.github.io.
+lb.oprah.codeforcroatia.org.	1	IN	CNAME	nasionnaire.myqnapcloud.com.
+legal.codeforcroatia.org.	1	IN	CNAME	schlos.github.io.
+odbc.codeforcroatia.org.	1	IN	CNAME	academy.codeforcroatia.org.
+odd.codeforcroatia.org.	1	IN	CNAME	codeforcroatia.github.io.
+odyc.codeforcroatia.org.	1	IN	CNAME	academy.codeforcroatia.org.
+openapi.codeforcroatia.org.	1	IN	CNAME	codeforcroatia.org.
+oprah.codeforcroatia.org.	1	IN	CNAME	nasionnaire.myqnapcloud.com.
+publikacije.codeforcroatia.org.	1	IN	CNAME	codeforcroatia.github.io.
+putni-troskovi.codeforcroatia.org.	1	IN	CNAME	codeforcroatia.github.io.
+raven.codeforcroatia.org.	1	IN	CNAME	cuttlefish.oaf.org.au.
+slackin.codeforcroatia.org.	1	IN	CNAME	slackincfc.herokuapp.com.
+staging.codeforcroatia.org.	1	IN	CNAME	codeforcroatia.org.
+status.codeforcroatia.org.	1	IN	CNAME	stats.uptimerobot.com.
+webmail.codeforcroatia.org.	1	IN	CNAME	webmail.schlos.net.
+www.codeforcroatia.org.	1	IN	CNAME	codeforcroatia.org.
+www.dev.codeforcroatia.org.	1	IN	CNAME	dev.codeforcroatia.org.
+www.fps.codeforcroatia.org.	1	IN	CNAME	fps.codeforcroatia.org.
+zagreb.codeforcroatia.org.	1	IN	CNAME	openzagreb.github.io.
+
+;; MX Records
+codeforcroatia.org.	1	IN	MX	10 aspmx2.googlemail.com.
+codeforcroatia.org.	1	IN	MX	5 alt2.aspmx.l.google.com.
+codeforcroatia.org.	1	IN	MX	5 alt1.aspmx.l.google.com.
+codeforcroatia.org.	1	IN	MX	1 aspmx.l.google.com.
+
+;; TXT Records
+clymcrri2a413ecph1tid9pcvxls.codeforcroatia.org.	1	IN	TXT	"clymcrri2a413ecph1tid9pcvxls"
+codeforcroatia.org.	1	IN	TXT	"google-site-verification=TEhGAMoAbrm0nW-aedUSijJWP5TSB4l_RZLIpStDS-E"
+codeforcroatia.org.	1	IN	TXT	"google-site-verification=Vy5hWN5Vdxto-aOv7QTl9ibZiYpa6WjO5-gvlxEta7o"
+codeforcroatia.org.	1	IN	TXT	"v=spf1 +a +mx +ip4:91.234.46.86 include:em.helpmonks.com include:helpmonks.com include:imamopravoznati.org ?all"
+cuttlefish._domainkey.maria.codeforcroatia.org.	1	IN	TXT	"k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAo8fJVjlGN79gfSB0T0DukmdhU1YXwvEM1RmIHaEuROi2Sxbwv98tqWCc/7LQH8OFz8DwICgyAn+qn9/CFFdL+9gk1Ip0whcf0jewLLxZvishnA5j3A1E3OpZA2q5KrppUToC2Rm3/pYPX032bRqshB55Gl55HQQZmxbOxS4Hfg11tExbIoD3LFELp4DrKOMZHr1bKU36kkgHpO4RlxAVBgIi1AZmodF7pE9vXdTpsvc4DvSY9eSusXjqgy53bYzSK85+GhHOrPe7dXQ5w9Q6T5c9Sc6em5CEp4hKmMe1kjaWDPbu+T4pZ0S1yyN9rEPW0Isyo8yXMODyHJdQo0z6sQIDAQAB"
+cuttlefish._domainkey.maria.codeforcroatia.org.	1	IN	TXT	"p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAo8fJVjlGN79gfSB0T0DukmdhU1YXwvEM1RmIHaEuROi2Sxbwv98tqWCc/7LQH8OFz8DwICgyAn+qn9/CFFdL+9gk1Ip0whcf0jewLLxZvishnA5j3A1E3OpZA2q5KrppUToC2Rm3/pYPX032bRqshB55Gl55HQQZmxbOxS4Hfg11tExbIoD3LFELp4DrKOMZHr1bKU36kkgHpO4RlxAVBgIi1AZmodF7pE9vXdTpsvc4DvSY9eSusXjqgy53bYzSK85+GhHOrPe7dXQ5w9Q6T5c9Sc6em5CEp4hKmMe1kjaWDPbu+T4pZ0S1yyN9rEPW0Isyo8yXMODyHJdQo0z6sQIDAQAB"
+cuttlefish._domainkey.maria.codeforcroatia.org.	1	IN	TXT	"k=rsa"
